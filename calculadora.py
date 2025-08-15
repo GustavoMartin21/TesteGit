@@ -49,3 +49,16 @@ def seno(angulo):
 def cosseno(angulo):
     import math
     return math.cos(math.radians(angulo))
+
+def tangente(angulo):
+    import math
+    return math.tan(math.radians(angulo))
+
+def porcentagem(total, percentual):
+    return (total * percentual) / 100
+
+def logaritmo(a, base=10):
+    import math
+    if a <= 0 or base <= 1:
+        return "Erro: Logaritmo indefinido para esses valores"
+    return math.log(a, base)
